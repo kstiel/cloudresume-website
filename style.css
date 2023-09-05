@@ -15,8 +15,8 @@ html{
     display: flex;
     justify-content: center;
     text-align: center;
-
   }
+  
   #sidebar{
       flex: 15%;
       display: block;
