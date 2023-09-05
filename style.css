@@ -10,7 +10,7 @@ html{
 
   }
 
-  .countertext{
+  #countertext{
     position: relative;
     display: flex;
     justify-content: center;
