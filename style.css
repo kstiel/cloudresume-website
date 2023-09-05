@@ -6,7 +6,16 @@ html{
   }
   #container{
       position: relative;
-      display: flex;
+      display: flex;      
+
+  }
+
+  #countertext{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
   }
   #sidebar{
       flex: 15%;
