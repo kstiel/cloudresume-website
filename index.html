@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kaung Si Thu - Resume</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" type="text/css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" type="text/css"/>
+		<script type="text/javascript" src="get_apis.js" defer></script>
+	</head>
+
+	<body>
+		<div id="counter">
+			<p class="counter">This page has been visited <a id="count"></a> times.</p>
+
+		</div>
+		<div id="container">
+			<div id="sidebar">
+				<div id="image">
+					<img id="profile-photo" src="me.jpg" alt="Profile-Image">
+				</div>
+				<p id="name">Kaung Si Thu<br></p>
+				<p>C | Java | JavaScript | Python | Linux<br>
+                    <span id="description">
+                    - Recent UC Berkeley Graduate in EEECS <br>
+                    - I tutor and help students attend top schools like UC Berkeley <br>
+                    - I like new challenges and playing with tech in spare time <br>
+                    - I love coffee!
+                    </span>
+                </p>
+				<hr width="100%">
+				<!-- <div id="course"> -->
+                    <p class="tag">Upper Division Coursework<br><span>UC Berkeley | <span>2020-2023</span></span></p>
+                    <ul>
+                        <li class="course"><a href="https://cs162.org">Operating Systems and Systems Programming</a></li>
+                        <li class="course"><a href="https://cs186berkeley.net">Introduction to Database Systems</a></li>
+                        <li class="course"><a href="https://cs170.org">Efficient algorithms and Intractable Problems</a></li>
+                        <li class="course"><a href="https://cs161.org">Computer Security</a></li>
+                        <li class="course"><a href="https://inst.eecs.berkeley.edu/~cs188">Introduction to Arificial Intelligence</a></li>
+                        <li class="course"><a href="https://people.eecs.berkeley.edu/~jrs/189/">Introduction to Machine Learning</a></li>
+                    </ul>                    
+				<!-- </div> -->
+				<hr width="100%">
+				<div id="sidepanel-section-title">Certifications<br>
+					<a href="https://www.credly.com/org/coursera/badge/google-it-support-certificate" class="link" target="_blank">
+						<img id="cert-thumbnail" src="google_it_support.png" alt="AWS Certified Solutions Architect Associate">
+					</a>
+				</div>
+				<hr width="100%">
+				<div id="sidepanel-section-title">Reach me!<br>
+					<a href="#" class="cryptedmail"
+						data-name="kaungsithu"
+                        data-domain="berkeley"
+                        data-tld="edu"
+						onclick="window.location.href = 'mailto:' + this.dataset.name; return false;">
+					</a>
+				</div>
+                        <a href="https://www.linkedin.com/in/kaungsithu-kst" class="link" target="_blank">
+                            <img id="social-thumbnail" src="linked_in.png" alt="LinkedIn">
+                        </a>
+                        &nbsp;
+                        <a href="https://github.com/kstiel" class="link" target="_blank">
+                            <img id="social-thumbnail" src="github.png" alt="GitHub">
+                        </a>
+			</div>
+			<div id="info-pages">
+				<div class="page">
+					<p>&nbsp;&nbsp;&nbsp;Work experience</p>
+					<ul>
+                        <p class="tag">Security Guard<br><span>Bear Basics | <span>2023-now</span></span></p>
+						<ul>
+                            <li>Provide security at the front door and the floor of the store, and customer service to incoming customers.</li>
+                            <li>Yep, this is how I start out of college, and if you are struggling to find a job like me in 2023, just know that it is fine.</li>
+                            <br>
+						</ul>
+						<p class="tag">Freelance<br><span>Computer Science and Electrical Engineering Tutor | <span>2019-now</span></span></p>
+						<ul>
+                            <li>I tutored students from different universities and colleges including San Jose State University, College of San Mateo, and Berkeley City College. These students are still my close friends. </li>
+							<li>Out of these execption students, I helped 2 students transfering from College of San Mateo to UC Berkely and 1 student from College of San Mateo to San Jose State University.</li>
+                            <li>Topics include basics of various programming languages (C++, Java, Python), objected oriented programming, artificial intelligence, machine learning, data structures, algorithms, and mathematics.</li>
+                            <br>
+						</ul>
+						<p class="tag">ConceptX<br><span>Mathematics Instructor | <span>2018-2018</span></span></p>
+						<ul>
+                            <li>I was approached by the Founder of ConceptX due to exceptional Mathematics skills.</li>
+                            <li>The discussion later turned into a full-time contract position where I worked closely with the founder and the production team to record high-quality lecture videos.</li>
+							<br>
+						</ul>
+					</ul>
+				</div>
+				<div class="page">
+					<p>&nbsp;&nbsp;&nbsp;Projects</p>
+					<ol>
+						<li> 
+							<p class="tag">This Website - <span>Built a personal portfolio website and utilized AWS cloud services to distribute it as a serverless website.</span></p>
+							<ul>
+								<li>Distributed the website with AWS S3, AWS CloudFront and AWS Route53 with AWS Serverless Lambda fetching the number of visitors from AWS DynamoDB.</li>
+								<li>Set up AWS SAM template for the Infrastructure as Code, and GitHub Actions for CI/CD.</li>
+								<br>
+							</ul>
+						</li>
+
+						<li> 
+							<p class="tag">Database Management System - <span>Enhanced the internals of a relational database management system. </span></p>
+							<ul>
+								<li>Achieved higher throughput with two-phase locking, and lower disk read/write with a query optimizer that utilizes indexing and efficient join algorithms.</li>
+								<li>Incorporated the write-ahead log system to recover from catastrophic disk failures.</li>
+								<br>
+							</ul>
+						</li>
+
+                        <li>
+							<p class="tag">Pacman AI Agent - <span>Trained the Pacman Agent using reinforcement learning in the classic maze-action game.</span></p>
+							<ul>
+								<li>Achieved a Pacman Agent of 92% win rate on 500 test games after training with Approximate Q-learning on a classic medium layout against two Ghost Agents.</li>
+								<li>Improved the game scores by constructing the feature extraction to encourage the Pacman to attack the Ghosts in their frightened states, increasing the average score by 74.8% (from 1090.4 to 1906.1).</li>
+								<br>
+							</ul>
+						</li>
+
+                        <li>
+							<p class="tag">Operating System Kernel - <span>Built an x86-compatible kernel.</span></p>
+							<ul>
+								<li>Developed with a team of four students by setting up a pair programming environment within Visual Studio and a remote debugging environment that utilizes GNU Debugger.</li>
+								<br>
+							</ul>
+						</li>
+
+						<li>
+							<p class="tag">Real-Time Chat Application - <span>Implemented a real-time web-based chat application that supports one-to-one chat rooms and group chat rooms.</span></p>
+							<ul>
+								<li>Created a responsive user interface along with features including typing notifications and unread message indicators.</li>
+								<li>The backend handles the real-time delivery of chat messages and notifications using the bidirectional, low-latency platform.</li>
+								<br>
+							</ul>
+						</li>
+
+						<li>
+							<p class="tag">Version Control System - <span>Designed and implemented a version control system whose design is inspired by Git.</span></p>
+							<ul>
+								<li>Implemented basic snapshotting capabilities that include committing changes, reverting changes, and merging branches.</li>
+								<li>Developed remote project collaboration features, similar to git pull and git push.</li>
+								<br>
+							</ul>
+						</li>
+					</ol>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>
