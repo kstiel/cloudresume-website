@@ -9,9 +9,7 @@
 	</head>
 
 	<body>
-		<div id="countertext">
-			<p>This page has been visited <a id="count"></a> times.</p>
-		</div>
+		<div id="countertext"><p>This page has been visited <a id="count"></a> times.</p></div>
 		<div id="container">
 			<div id="sidebar">
 				<div id="image">
@@ -37,13 +35,12 @@
                     </ul>                    
 				<hr width="100%">
 				<div id="sidepanel-section-title">Certifications<br>
-					<a href="https://coursera.org/share/3ce20855b07bb859a3aaa8209fbbeacb" class="link" target="_blank">
-						<img id="cert-thumbnail" src="images/google_it_support.png" alt="Google IT Support">
-					</a>
-					<a href="https://learn.microsoft.com/api/credentials/share/en-us/KaungSiThu-3438/25973E8A98E4D27A?sharingId=CF3EB5DE3E4251B7" class="link" target="_blank">
-						<img id="cert-thumbnail" src="images/zero-state-applied-skills.svg" alt="Secure storage for Azure Files and Azure Blob Storage
-						">
-					</a>
+					<ul>
+						<li class="course"><a href="https://coursera.org/share/3ce20855b07bb859a3aaa8209fbbeacb">Google IT Support</a></li>
+						<li class="course"><a href="https://learn.microsoft.com/api/credentials/share/en-us/KaungSiThu-3438/25973E8A98E4D27A?sharingId=CF3EB5DE3E4251B7">Secure storage for Azure Files and Azure Blob Storage</a></li>
+						<li class="course"><a href="Configure secure access to your workloads using Azure networking">Configure secure access to your workloads using Azure networking
+	
+					</ul>
 				</div>
 				<hr width="100%">
 				<div id="sidepanel-section-title">Reach me!<br>
@@ -77,10 +74,16 @@
 
 					<p>&nbsp;&nbsp;&nbsp;Work experience</p>
 					<ul>
+						<p class="tag">Software Engineer (Volunteer)<br><span>SuperTech FT | <span>Dec 2023-now</span></span></p>
+						<ul>
+							
+							<li>Play a key role in designing and enhancing the user experience of the organization's primary website, supertechft.org.</li>
+							<li>Implement AI-driven interactive softwares to create engaging and effective learning tools.</li>
+						</ul>
                         <p class="tag">General Sale Associate<br><span>Bear Basics | <span>2023-now</span></span></p>
 						<ul>
 							
-                            <li>Acts as security, cashier, and sale person on demand.</li>
+                            <li>Act as security, cashier, and sale person on demand.</li>
                             <li>Yep, this is how I start out of college, and 2023 was a tough year to land an SWE job.</li>
                             <br>
 						</ul>
@@ -106,7 +109,7 @@
 							<p class="tag">This Website - <span>Designed a personal portfolio website as a serverless web application and deployed it using AWS services.</span></p>
 							<ul>
 								<li>Hosted and distributed the website with AWS S3, AWS CloudFront, and AWS Route53.</li>
-								<li>Modify and display the total number of visitors from AWS DynamoDB using AWS Serverless Lambda.</li>
+								<li>Display the real-time update of the total number of visitors using AWS DynamoDB Streams, AWS Serverless Lambda, and AWS Websocket API.</li>
 								<li>Launched GitHub Actions for CI/CD pipeline, and AWS CloudFormation to deploy the AWS infrastructure.</li>
 								<br>
 							</ul>
